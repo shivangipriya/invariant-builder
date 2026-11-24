@@ -2,6 +2,8 @@
 
 A small browser tool that turns a plain-language feature description into candidate invariants - statements of what might need to stay true while the feature runs - each with its assumptions shown, an alternative policy where one commonly exists, and a concrete way to test it. Nothing it suggests is a requirement until you accept it.
 
+**Try it:** https://shivangipriya.github.io/invariant-builder/ - runs in your browser, no signup.
+
 **Why it exists:** the idea comes from a real, recent founder post on r/SaaS (https://www.reddit.com/r/SaaS/comments/1xhhl51/) describing bugs that produce no error at all: an invoice that saves successfully with a wrong total, inventory that updates incorrectly, dashboard numbers that drift from the database, one company's data becoming visible to another. Catching that class of bug starts with writing down what correct means. This tool helps you write that down.
 
 ## Use it
